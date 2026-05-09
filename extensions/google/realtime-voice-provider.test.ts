@@ -187,7 +187,7 @@ describe("buildGoogleRealtimeVoiceProvider", () => {
               {
                 name: "lookup",
                 description: "Look something up",
-                parametersJsonSchema: {
+                parameters: {
                   type: "object",
                   properties: {
                     query: { type: "string" },
@@ -198,7 +198,7 @@ describe("buildGoogleRealtimeVoiceProvider", () => {
               {
                 name: "openclaw_agent_consult",
                 description: "Ask OpenClaw",
-                parametersJsonSchema: {
+                parameters: {
                   type: "object",
                   properties: {
                     question: { type: "string" },
